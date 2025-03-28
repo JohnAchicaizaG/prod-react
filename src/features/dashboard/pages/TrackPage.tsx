@@ -9,7 +9,7 @@ import { io, Socket } from "socket.io-client";
 import api from "../../../app/axiosConfig";
 import ConfirmationNumberIcon from "@mui/icons-material/ConfirmationNumber";
 
-const socket: Socket = io("http://localhost:4000");
+const socket: Socket = io("https://prod-node-production.up.railway.app");
 
 /**
  * @constant {Array<{key: string, label: string, icon: string}>} STATUS_STEPS
